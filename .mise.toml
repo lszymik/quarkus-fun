@@ -1,0 +1,6 @@
+[tools]
+# GraalVM currently tracks JDK 25 for Native Image; GraalVM 27 is not available.
+java = "oracle-graalvm-25"
+
+[env]
+JAVA_TOOL_OPTIONS = "-Dfile.encoding=UTF-8"
